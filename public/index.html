@@ -263,6 +263,16 @@
                     </li>
             </div>
         </div>
+        <script type="text/javascript">
+            $(function() {
+                $("a[class='sns-btn']")
+                    .on('touchstart', function() {
+                        $(this).addClass('hover');
+                    }).on('touchend', function() {
+                        $(this).removeClass('hover');
+                    });
+            })
+        </script>
     </section>
     <!-- CONTACT SECTION END -->
 
