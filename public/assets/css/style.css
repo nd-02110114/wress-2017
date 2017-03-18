@@ -1,0 +1,302 @@
+/*=============================================================
+    Authour URL: www.designbootstrap.com
+
+    http://www.designbootstrap.com/
+
+    License: MIT
+
+    http://opensource.org/licenses/MIT
+
+    100% Free To use For Personal And Commercial Use.
+
+    IN EXCHANGE JUST TELL PEOPLE ABOUT THIS WEBSITE
+
+========================================================  */
+
+
+/*==============================
+GENERAL STYLES
+==============================*/
+
+@import url(http://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+body {
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 25px;
+}
+
+.pad-bottom {
+    padding-bottom: 40px;
+}
+
+section {
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+
+/*==============================
+NAVBAR STYLES
+==============================*/
+
+.navbar {
+    padding: 15px;
+    -webkit-transition: background .8s ease-out, padding .8s ease-out;
+    -moz-transition: background .8s ease-out, padding .8s ease-out;
+    transition: background .8s ease-out, padding .8s ease-out;
+}
+
+.navbar-default {
+    background-color: #FF1300;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+    border-width: 2px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #000;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.fa-bars {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+
+/* =============================================================
+  HEADER SECTION STYLES
+ ============================================================ */
+
+#header {
+    background: url(../img/top.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    min-height: 700px;
+}
+
+#header h1 {
+    line-height: 60px;
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 180px;
+    padding-bottom: 35px;
+    color: #ffffff;
+}
+
+.fa-angle-down {
+    font-size: 5em;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.scroll-btn {}
+
+
+/*================================
+    About STYLES
+==================================*/
+
+#about {
+    background-color: #F7F7F7;
+    /*background: transparent;*/
+}
+
+.heading {
+    display: inline-block;
+    position: relative;
+}
+
+.heading::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 30px;
+    border-bottom: 3px solid #333;
+}
+
+.heading-text {
+    margin-top: 20px;
+}
+
+
+/* =============================================================
+ PORTFOLIO SECTION STYLES
+ ============================================================ */
+
+#activity {
+    background-color: #F7F7F7;
+}
+
+
+/* =============================================================
+  EVENTS SECTION STYLES
+ ============================================================ */
+
+#events {
+    background-color: #F7F7F7;
+}
+
+.media img {
+    margin-right: 50px;
+    max-height: 150px;
+    margin-bottom: 20px;
+    border: 2px solid #b22626;
+}
+
+.media img:hover {
+    opacity: 0.6;
+}
+
+
+/* =============================================================
+  CONTACT SECTION STYLES
+ ============================================================ */
+
+#contact {
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    background-attachment: fixed;
+    background-color: #34AADC;
+    min-height: 300px;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.heading-white {
+    display: inline-block;
+    position: relative;
+}
+
+.heading-white::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    width: 30px;
+    border-bottom: 3px solid #FFFFFF;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.list li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.sns-btn-text {
+    font-size: 20px;
+}
+
+.sns-btn {
+    display: inline-block;
+    width: 200px;
+    height: 54px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: #34AADC;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    line-height: 50px;
+    border-radius: 1em;
+}
+
+.sns-btn::before, .sns-btn::after {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    content: '';
+}
+
+.sns-btn, .sns-btn::before, .sns-btn::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.sns-btn:hover {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #34AADC;
+}
+
+#pageTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#pageTop a:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-chevron-circle-up {
+    font-size: 50px;
+    color: #FF1300;
+}
+
+
+/* =============================================================
+  FOOTER SECTION STYLES
+ ============================================================ */
+
+footer {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(237, 237, 237, 1);
+}
+
+footer a, footer a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* responsible style*/
+
+@media screen and (max-width:750px) {
+    .sns-btn-text {
+        font-size: 15px;
+    }
+}

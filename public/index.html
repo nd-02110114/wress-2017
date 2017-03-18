@@ -1,7 +1,315 @@
 <!DOCTYPE html>
-<html>
-<head></head>
-<body>
-<h1>Hello world</h1>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>WRESS</title>
+    <!-- BOOTSTRAP CORE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- introduce font-awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
+    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- CORE JQUERY  SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <div class="navbar navbar-default navbar-fixed-top scroll-me">
+        <!-- pass scroll-me class above a tags to starts scrolling -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="container">
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#header"><i class="fa fa-home fa-fw"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa fa-info-circle fa-fw"></i>Info</a></li>
+                    <li><a href="#activity"><i class="fa fa-users fa-fw"></i>Activity</a></li>
+                    <li><a href="#events"><i class="fa fa-calendar-check-o fa-fw"></i>Events</a></li>
+                    <li><a href="#contact"><i class="fa fa-external-link fa-fw"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- NAVBAR END  -->
+
+    <div id="header">
+        <div class="container">
+            <div class="row scroll-me">
+                <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 text-center ">
+                    <h1 data-scroll-reveal="enter from the bottom after 0.2s">Waseda Riko</br> English Speaking Society</h1>
+                    <h2 data-scroll-reveal="enter from the bottom after 0.4s">英語を話す機会が欲しいあなたへ<br>ぴったりのサークル、あります</h2>
+                    <a class="scroll-btn" href="#about"><i class="fa fa-angle-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--HEADER SECTION END  -->
+
+    <section id="about">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <h2 class="heading"><i class="fa fa-info-circle fa-fw"></i><strong>About WRESS</strong></h2>
+                    <!-- <br>
+                    <img src="./assets/img/logo.jpg" alt="早稲田大学理工英語会のページへようこそ！" border="0" height="220" width="220"> -->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- About SECTION END  -->
+
+    <section id="activity">
+        <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
+            <div class="col-md-6 col-md-offset-3 pad-bottom">
+                <h2 class="heading"> <i class="fa fa-users fa-fw"></i><strong>Activity</strong></h2>
+                <h4>それぞれのSection活動を紹介していきます！</h4>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <h2><strong>Value Disucussion</strong></h2>
+                    <strong>
+                      ディスカッションでは簡単な自己紹介から哲学的な話、社会問題まで様々なテーマについて話し合います。もちろん英語です。
+                      ディスカッションを通じて英会話力が伸びるだけではなく、同時に論理的に物事を考える力がつきます。何か１つのものごとについて仲間と議論を交わすというのは面白いものです。
+                    </strong>
+                </div>
+            </div>
+            <div class="row text-center" id="portfolio-div">
+                <div class="col-md-4 col-sm-4 html">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="普段の活動の様子" href="assets/img/dis/new_daily.jpg">
+                            <img src="assets/img/dis/new_daily.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 css">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="ディスカッションの様子" href="assets/img/dis/value2.jpg">
+                            <img src="assets/img/dis/value2.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 code">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="自分たちの主催大会" href="assets/img/dis/discussion.jpg">
+                            <img src="assets/img/dis/discussion.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <br><br><br><br>
+                    <h2><strong>Guide</strong></h2>
+                    <strong>
+                      その名の通り外国人の方の観光案内(ガイド)する活動です。数週間に１回の頻度で週末にやってます。場所は皇居や浅草、明治神宮などで、どれも日本の有名な観光地です。
+                      ネイティブの方と会話をすることで生の英語に触れることができるだけでなく、会話を通じてその国の文化に触れることもできます。ガイドする外国人の方は現地でキャッチしなければならないので、同時にコミュニケーション能力も向上することでしょう笑
+                    </strong>
+                </div>
+            </div>
+            <div class="row text-center" id="portfolio-div">
+                <div class="col-md-4 col-sm-4 html">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="ガイド地・浅草" href="assets/img/guide/guide1.jpg">
+                            <img src="assets/img/guide/guide1.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 css">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="ガイド地・浅草" href="assets/img/guide/guide2.jpg">
+                            <img src="assets/img/guide/guide2.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 code">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="ガイド地・明治神宮" href="assets/img/guide/guide3.jpg">
+                            <img src="assets/img/guide/guide3.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <br><br><br><br>
+                    <h2><strong>Speech</strong></h2>
+                    <strong>
+                      WRESSでは2年前からスピーチも活動として取り入れました。スピーチはコンペティション形式であり、優勝を目指して争うことになります。スピーチ大会では英語の流暢さに加えてスピーチの内容、話しぶりなど様々な要素を評価されることになります。
+                      そのため本気でスピーチに取り組むことができれば、英語力がぐんと伸びるだけではなくプレゼンテーションや論理的思考力など様々な能力に磨きがかかることでしょう。
+                    </strong>
+                </div>
+            </div>
+            <div class="row text-center" id="portfolio-div">
+                <div class="col-md-4 col-sm-4 html">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="大会の様子" href="assets/img/speech/speech1.jpg">
+                            <img src="assets/img/speech/speech1.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 css">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="大会の集合写真" href="assets/img/speech/speech2.jpg">
+                            <img src="assets/img/speech/speech2.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 code">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="レクチャーの様子" href="assets/img/speech/speech3.jpg">
+                            <img src="assets/img/speech/speech3.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-6 col-md-offset-3 pad-bottom" data-scroll-reveal="enter from the bottom after 0.2s">
+                    <br><br><br><br>
+                    <h2><strong>Debate</strong></h2>
+                    <strong>Policy Determining Discussionの略で通称"政策決定議論"と訳されます。決められた社会などのテーマに対して、英語で意見をぶつけ合います。チャート用紙を使うのが特徴的で、英語力だけでなく、プレゼン能力も格段に上がります！ランクと呼ばれる賞をとることもできますよ！</strong>
+                </div>
+            </div>
+            <div class="row text-center" id="portfolio-div">
+                <div class="col-md-4 col-sm-4 html">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="PDD風景" href="assets/img/pdd5.jpg">
+                            <img src="assets/img/pdd5.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 css">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="PDD風景" href="assets/img/pdd2.jpg">
+                            <img src="assets/img/pdd2.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 code">
+                    <div class="work-wrapper">
+                        <a class="fancybox-media" title="PDD風景" href="assets/img/pdd3.jpg">
+                            <img src="assets/img/pdd3.jpg" class="img-responsive " alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Activity SECTION END  -->
+
+    <section id="events">
+        <div class="container">
+            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
+                <div class="col-md-6 col-md-offset-3 pad-bottom">
+                    <h2 class="heading"><i class="fa fa-calendar-check-o fa-fw"></i><strong>Freshman Events</strong></h2>
+                    <h3>(3/31-4/3 新歓ブース<font color="red">56号館前</font>)</h3>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Events SECTION END -->
+
+    <section id="contact">
+        <div class="container">
+            <div class="row text-center" data-scroll-reveal="enter from the bottom after 0.2s">
+                <div class="col-md-6 col-md-offset-3 pad-bottom">
+                    <h2 class="heading-white"> <i class="fa fa-external-link fa-fw"></i><strong>Contact US</strong></h2>
+                    <h4 class="heading-text">気になったら気軽に連絡してください！</h4>
+                </div>
+            </div>
+            <div class="sns-table" data-scroll-reveal="enter from the bottom after 0.2s">
+                <ul class="list">
+                    <li>
+                        <h4 class="sns-btn-text">もっと知りたいという人は、メールで質問！</h4>
+                        <a role="button" class="sns-btn" href="mailto:welcomewress@gmail.com"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>メールを送る</a>
+                    </li>
+                    <li>
+                        <h4 class="sns-btn-text">イベントを逃したくない人は、空メールを送ってメーリスに登録！</h4>
+                        <a role="button" class="sns-btn" href="mailto:62633218@ra9.jp"><i class="fa fa-check-square-o fa-fw" aria-hidden="true"></i>イベントをチェック</a>
+                    </li>
+                    <li>
+                        <h4 class="sns-btn-text">Twitterは活動情報が満載！</h4>
+                        <a role="button" class="sns-btn" href="https://twitter.com/wress_twi" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>Twitterへ</a>
+                    </li>
+                    <li>
+                        <h4 class="sns-btn-text">Facebookもやってます！</h4>
+                        <a role="button" class="sns-btn" href="https://www.facebook.com/wasedarikoess" target="_blank"><i class="fa fa-twitter fa-fw" aria-hidden="true"></i>Facebookへ</a>
+                    </li>
+            </div>
+        </div>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <p id="pageTop"><a href="#"><i class="fa fa-chevron-circle-up" aria-hidden="true"></i></a></p>
+    <script type="text/javascript">
+        $(function() {
+            var topBtn = $('#pageTop');
+            topBtn.hide();
+
+            //◇ボタンの表示設定
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 500) {
+                    //---- 画面を80pxスクロールしたら、ボタンを表示する
+                    topBtn.fadeIn();
+                } else {
+                    //---- 画面が80pxより上なら、ボタンを表示しない
+                    topBtn.fadeOut();
+                }
+            });
+
+            // ◇ボタンをクリックしたら、スクロールして上に戻る
+            topBtn.click(function() {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 500);
+                return false;
+            });
+
+        });
+    </script>
+
+    <footer>
+        &copy 2016 Waseda Riko English Speaking Society</a>
+    </footer>
+    <!--FOOTER SECTION END  -->
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- SCROLLING SCRIPTS PLUGIN  -->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  FANCYBOX PLUGIN -->
+    <script src="assets/js/source/jquery.fancybox.js"></script>
+    <!-- SCROLL ANIMATIONS  -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!-- CUSTOM SCRIPTS   -->
+    <script src="assets/js/custom.js"></script>
+
 </body>
+
 </html>
