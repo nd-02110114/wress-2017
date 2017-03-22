@@ -40,14 +40,15 @@ NAVBAR STYLES
 ==============================*/
 
 .navbar {
-    padding: 15px ;
+    padding: 15px;
     -webkit-transition: background .8s ease-out, padding .8s ease-out;
+    -o-transition: background .8s ease-out, padding .8s ease-out;
     -moz-transition: background .8s ease-out, padding .8s ease-out;
     transition: background .8s ease-out, padding .8s ease-out;
 }
 
 .navbar-pad-original {
-    padding: 0px;
+    padding: 0;
 }
 
 .navbar-default {
@@ -77,9 +78,9 @@ NAVBAR STYLES
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #000;
     background-color: rgba(0, 0, 0, 0);
-    border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .navbar-toggle {
@@ -98,8 +99,6 @@ NAVBAR STYLES
   HEADER SECTION STYLES
  ============================================================ */
 
-#header {}
-
 #header h1 {
     line-height: 60px;
     font-size: 60px;
@@ -108,7 +107,7 @@ NAVBAR STYLES
     padding-bottom: 35px;
     color: #FFFFFF;
     opacity: 0.85;
-    text-shadow: black 1px 1px 0px, black -1px 1px 0px, black 1px -1px 0px, black -1px -1px 0px;
+    text-shadow: black 1px 1px 0, black -1px 1px 0, black 1px -1px 0, black -1px -1px 0;
 }
 
 .fa-angle-down {
@@ -116,8 +115,6 @@ NAVBAR STYLES
     color: #FFFFFF;
     padding: 8px;
 }
-
-.scroll-btn {}
 
 
 /*================================
@@ -197,7 +194,8 @@ NAVBAR STYLES
     justify-content: center;
     -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-padding-start: 0px
+    -webkit-padding-start: 0;
+    -moz-padding-start: 0;
 }
 
 .list li {
@@ -237,6 +235,8 @@ NAVBAR STYLES
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
     -webkit-transition: all .3s;
     transition: all .3s;
 }
