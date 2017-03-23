@@ -62,7 +62,7 @@ NAVBAR STYLES
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #FF1300
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -77,7 +77,7 @@ NAVBAR STYLES
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #000;
-    background-color: rgba(0, 0, 0, 0);
+    background-color:  #FF1300;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -99,9 +99,9 @@ NAVBAR STYLES
   HEADER SECTION STYLES
  ============================================================ */
 
-#header h1 {
+.header h1 {
     line-height: 60px;
-    font-size: 60px;
+    font-size: 60px;;
     font-weight: 900;
     padding-top: 180px;
     padding-bottom: 35px;
@@ -121,7 +121,7 @@ NAVBAR STYLES
     About STYLES
 ==================================*/
 
-#about {
+.about {
     background-color: #F7F7F7;
     /*background: transparent;*/
 }
@@ -150,7 +150,7 @@ NAVBAR STYLES
  PORTFOLIO SECTION STYLES
  ============================================================ */
 
-#activity {
+.activity {
     background-color: #F7F7F7;
 }
 
@@ -159,7 +159,7 @@ NAVBAR STYLES
   EVENTS SECTION STYLES
  ============================================================ */
 
-#events {
+ .events {
     background-color: #F7F7F7;
 }
 
@@ -168,7 +168,7 @@ NAVBAR STYLES
   CONTACT SECTION STYLES
  ============================================================ */
 
-#contact {
+.contact {
     background-color: #34AADC;
     color: #FFFFFF;
 }
@@ -241,13 +241,13 @@ NAVBAR STYLES
     transition: all .3s;
 }
 
-#pageTop {
+.pageTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
 }
 
-#pageTop a:hover {
+.pageTop a:hover {
     opacity: 0.7;
     text-decoration: none;
 }
@@ -268,7 +268,7 @@ footer {
     font-size: 15px;
     text-align: center;
     font-weight: 900;
-    background-color: rgba(237, 237, 237, 1);
+    background-color: #F7F7F7;
 }
 
 footer a, footer a:hover {
@@ -304,7 +304,7 @@ footer a, footer a:hover {
 }
 
 @media screen and (min-width:750px) {
-    #header {
+    .header {
         background: url(../img/top.jpg) no-repeat center center;
         padding: 0;
         -webkit-background-size: cover;
