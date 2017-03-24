@@ -19,6 +19,11 @@ GENERAL STYLES
 ==============================*/
 
 @import url(https://fonts.googleapis.com/css?family=Anton|Maven+Pro:500,700);
+@font-face {
+    font-family: 'original';
+    src: url('03SmartFontUI.ttf');
+}
+
 body {
     font-family: 'Maven Pro', sans-serif;
     line-height: 25px;
@@ -77,7 +82,7 @@ NAVBAR STYLES
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #000;
-    background-color:  #FF1300;
+    background-color: #FF1300;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -101,7 +106,8 @@ NAVBAR STYLES
 
 .header h1 {
     line-height: 60px;
-    font-size: 60px;;
+    font-size: 60px;
+    ;
     font-weight: 900;
     padding-top: 180px;
     padding-bottom: 35px;
@@ -110,10 +116,14 @@ NAVBAR STYLES
     text-shadow: black 1px 1px 0, black -1px 1px 0, black 1px -1px 0, black -1px -1px 0;
 }
 
-.fa-angle-down {
+.fa-angle-double-down {
     font-size: 5em;
     color: #FFFFFF;
     padding: 8px;
+}
+
+.scrol-btn {
+  padding-top: 50px;
 }
 
 
@@ -123,21 +133,22 @@ NAVBAR STYLES
 
 .about {
     background-color: #F7F7F7;
-    /*background: transparent;*/
 }
 
 .heading {
     display: inline-block;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .heading::after {
     content: "";
     position: absolute;
-    left: 50%;
-    bottom: -10px;
-    width: 30px;
-    border-bottom: 3px solid #333;
+    bottom: -40%;
+    left: 30%;
+    right: 30%;
+    width: 40%;
+    border-bottom: 1.5px solid #333;
     border-radius: 1px;
 }
 
@@ -154,12 +165,36 @@ NAVBAR STYLES
     background-color: #F7F7F7;
 }
 
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
 
 /* =============================================================
   EVENTS SECTION STYLES
  ============================================================ */
 
- .events {
+.events {
     background-color: #F7F7F7;
 }
 
@@ -311,7 +346,20 @@ footer a, footer a:hover {
         background-size: cover;
         background-attachment: fixed;
         color: #fff;
-        min-height: 700px;
+        height: 100%;
+        min-height: 800px;
+    }
+
+    .o-column .col-md-3 {
+        padding: 0 30px
+    }
+
+    .o-3-column {
+        margin: 0 -30px;
+    }
+
+    .about-text {
+        font-size: 20px;
     }
     .sns-btn:hover {
         background-color: #FFFFFF;
