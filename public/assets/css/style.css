@@ -107,7 +107,6 @@ NAVBAR STYLES
 .header h1 {
     line-height: 60px;
     font-size: 60px;
-    ;
     font-weight: 900;
     padding-top: 180px;
     padding-bottom: 35px;
@@ -122,8 +121,8 @@ NAVBAR STYLES
     padding: 8px;
 }
 
-.scrol-btn {
-  padding-top: 50px;
+.scroll-btn {
+    padding-top: 100px;
 }
 
 
@@ -138,7 +137,9 @@ NAVBAR STYLES
 .heading {
     display: inline-block;
     position: relative;
+    margin-top: 80px;
     margin-bottom: 30px;
+    color: #000;
 }
 
 .heading::after {
@@ -148,12 +149,26 @@ NAVBAR STYLES
     left: 30%;
     right: 30%;
     width: 40%;
-    border-bottom: 1.5px solid #333;
+    border-bottom: 1.5px solid #000;
     border-radius: 1px;
 }
 
 .heading-text {
     margin-top: 20px;
+}
+
+.about-text {
+    line-height: 180%;
+}
+
+.o-pad-btm {
+    padding-bottom: 80px;
+}
+
+.o-about-text {
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 1px
 }
 
 
@@ -189,6 +204,22 @@ NAVBAR STYLES
     align-items: center;
 }
 
+.swiper-pagination-bullet {
+       width: 20px;
+       height: 20px;
+       text-align: center;
+       line-height: 20px;
+       font-size: 12px;
+       color:#000;
+       opacity: 1;
+       background: rgba(0,0,0,0.2);
+   }
+
+   .swiper-pagination-bullet-active {
+       color:#fff;
+       background: #007aff;
+   }
+
 
 /* =============================================================
   EVENTS SECTION STYLES
@@ -206,21 +237,6 @@ NAVBAR STYLES
 .contact {
     background-color: #34AADC;
     color: #FFFFFF;
-}
-
-.heading-white {
-    display: inline-block;
-    position: relative;
-}
-
-.heading-white::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -10px;
-    width: 30px;
-    border-bottom: 3px solid #FFFFFF;
-    border-radius: 1px
 }
 
 .list {
@@ -276,10 +292,16 @@ NAVBAR STYLES
     transition: all .3s;
 }
 
+.add-about {
+    height: 50px;
+    width: 180px;
+}
+
 .pageTop {
     position: fixed;
     bottom: 20px;
     right: 20px;
+    z-index:100;
 }
 
 .pageTop a:hover {
@@ -331,9 +353,14 @@ footer a, footer a:hover {
     .sns-btn-text {
         font-size: 15px;
     }
-    .hover {
+    .hover-white {
         background-color: #FFFFFF;
         border-color: #FFFFFF;
+        color: #34AADC;
+    }
+    .hover-gray {
+        background-color: #F7F7F7;
+        border-color: #F7F7F7;
         color: #34AADC;
     }
 }
@@ -349,21 +376,26 @@ footer a, footer a:hover {
         height: 100%;
         min-height: 800px;
     }
-
-    .o-column .col-md-3 {
-        padding: 0 30px
+    .heading-text {
+        font-size: 25px;
     }
-
+    .o-column .col-md-4 {
+        padding: 0 40px
+    }
     .o-3-column {
         margin: 0 -30px;
     }
-
     .about-text {
         font-size: 20px;
     }
     .sns-btn:hover {
         background-color: #FFFFFF;
         border-color: #FFFFFF;
+        color: #34AADC;
+    }
+    .add-about:hover {
+        background-color: #F7F7F7;
+        border-color: #F7F7F7;
         color: #34AADC;
     }
 }

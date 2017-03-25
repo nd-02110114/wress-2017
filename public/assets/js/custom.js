@@ -52,4 +52,15 @@ $(document).ready(function() {
         }
     });
 
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        paginationBulletRender: function (swiper, index, className) {
+           return '<span class="' + className + '">' + (index + 1) + '</span>';
+       }
+    });
+
 });
