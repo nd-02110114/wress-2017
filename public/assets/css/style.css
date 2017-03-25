@@ -177,8 +177,8 @@ NAVBAR STYLES
  ============================================================ */
 
 .activity {
-  background-color: #34AADC;
-  color: #FFFFFF;
+    background-color: #FFDB4C;
+    color: #FFFFFF;
 }
 
 .swiper-container {
@@ -206,20 +206,20 @@ NAVBAR STYLES
 }
 
 .swiper-pagination-bullet {
-       width: 20px;
-       height: 20px;
-       text-align: center;
-       line-height: 20px;
-       font-size: 12px;
-       color:#000;
-       opacity: 1;
-       background: rgba(0,0,0,0.2);
-   }
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
 
-   .swiper-pagination-bullet-active {
-       color:#fff;
-       background: #007aff;
-   }
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+}
 
 
 /* =============================================================
@@ -229,6 +229,67 @@ NAVBAR STYLES
 .events {
     background-color: #F7F7F7;
 }
+
+.calender {
+    border-left: 1px solid black;
+    border-radius: 3px;
+    overflow: hidden;
+    max-width: 1000px;
+    margin: 30px auto;
+    clear: both;
+}
+
+.week {
+    overflow: hidden;
+    clear: both;
+}
+
+.week span {
+    background-color: rgba(1, 30, 50, 0.7);
+    color: white;
+    display: block;
+    float: left;
+    width: 14.28571429%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.day {
+    overflow: hidden;
+}
+
+.day span {
+    background-color: #FFFFFF;
+    color: black;
+    position: relative;
+    display: block;
+    float: left;
+    width: 14.28571429%;
+    height: 80px;
+    padding: 10px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.o-calender {
+    box-sizing: border-box;
+    -webit-box-sizing: border-box;
+    min-height: 100vh;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+100;Black+3D */
+    /*background: #7d7e7d;
+    /* Old browsers */
+    /*background: -moz-linear-gradient(-45deg, #7d7e7d 0%, #0e0e0e 100%);*/
+    /* FF3.6-15 */
+    /*background: -webkit-linear-gradient(-45deg, #7d7e7d 0%, #0e0e0e 100%);*/
+    /* Chrome10-25,Safari5.1-6 */
+    /*background: linear-gradient(135deg, #7d7e7d 0%, #0e0e0e 100%);*/
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /*f?ilter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=1);*/
+    /* IE6-9 fallback on horizontal gradient */
+}*
 
 
 /* =============================================================
@@ -302,7 +363,7 @@ NAVBAR STYLES
     position: fixed;
     bottom: 20px;
     right: 20px;
-    z-index:100;
+    z-index: 100;
 }
 
 .pageTop a:hover {
