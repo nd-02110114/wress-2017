@@ -511,6 +511,11 @@ footer a, footer a:hover {
         font-size: 20px;
         font-weight: 800;
     }
+    .img-responsive {
+      min-height: 235px;
+      max-height: 240px;
+      min-width: 360px;
+    }
     .sns-btn:hover {
         background-color: #FFFFFF;
         border-color: #FFFFFF;
