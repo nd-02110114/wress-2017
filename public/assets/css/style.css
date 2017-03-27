@@ -112,7 +112,7 @@ NAVBAR STYLES
     padding-bottom: 35px;
     color: #FFFFFF;
     opacity: 0.85;
-    text-shadow: black 3px 3px 0, black -3px 3px 0, black 3px -3px 0, black -3px -3px 0;
+    text-shadow: black 1px 1px 0, black -1px 1px 0, black 1px -1px 0, black -1px -1px 0;
 }
 
 .fa-angle-double-down {
