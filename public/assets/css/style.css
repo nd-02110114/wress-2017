@@ -444,7 +444,7 @@ footer a, footer a:hover {
 /* responsible style*/
 
 @media screen and (max-width:750px) {
-    #header{
+    /*#header{
       background: url(../img/top.jpg) no-repeat center center;
       padding: 0;
       -webkit-background-size: cover;
@@ -452,7 +452,8 @@ footer a, footer a:hover {
       color: #fff;
       height: 100%;
       min-height: 800px;
-    }
+    }*/
+    
     .o-calender {
         min-height: 60vh;
     }
