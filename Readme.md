@@ -1,8 +1,5 @@
 # WRESS HomePage
 
-herokuにあげたWRESSのホームページです。
-[https://wress-test.herokuapp.com/](https://wress-test.herokuapp.com/)
-
 ## Deployment
 
 Add or update files in `/public`.
